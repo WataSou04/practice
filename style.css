@@ -4,34 +4,28 @@
     box-sizing: border-box;
 }
 
-.box1 {
+header {
+    background-image: url(photo/mv.jpg);
+    height: 400px;
     width: 100%;
-    height: 200px;
-    background-image: url(photo/box1.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
-.box2 {
-    width: 100%;
-    height: 200px;
-    background-image: url(photo/box2.jpg);
-    background-size: cover;
-    background-position: center;
+.main-visual-content {
+    padding: 20px 0 0 20px;
+    color: #808080;
 }
 
-.box3 {
-    width: 100%;
-    height: 200px;
-    background-image: url(photo/box3.jpg);
-    background-size: cover;
-    background-position: center;
+main {
+    width: 840px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0 50px 0;
 }
 
-.box4 {
-    width: 100%;
-    height: 200px;
-    background-image: url(photo/box4.jpg);
-    background-size: cover;
-    background-position: center;
+.blog-visual {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #f7f7f7;
 }
